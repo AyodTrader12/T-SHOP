@@ -123,7 +123,7 @@ const Home = () => {
           </div>
         </div>
         <div className="w-full h-[13vh]  flex items-center justify-center">
-          <button className="w-[120px] h-[27%] bg-black text-[#d6ff37] font-light text-[12px] text-center">
+          <button className="w-[120px] h-[27%] bg-black text-[#d6ff37] font-light text-[12px] text-center hover:bg-slate-700 transition-all duration-300">
             Shop New
           </button>
         </div>

@@ -9,7 +9,9 @@ import pix5 from "../assets/t shop 9.webp";
 import pix6 from "../assets/t shop1.webp";
 import pix7 from "../assets/t shop 2.webp";
 import pix8 from "../assets/t shop 3.webp";
+import { useState } from "react";
 const Men = () => {
+  const [click, setClick] = useState<boolean>(false);
   return (
     <div>
       <div>
